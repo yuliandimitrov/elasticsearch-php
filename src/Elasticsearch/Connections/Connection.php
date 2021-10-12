@@ -104,7 +104,7 @@ class Connection implements ConnectionInterface
     /**
      * @var float
      */
-    private $pingTimeout = 1;    //TODO expose this
+    private $pingTimeout = 5;    //TODO expose this
 
     /**
      * @var int
